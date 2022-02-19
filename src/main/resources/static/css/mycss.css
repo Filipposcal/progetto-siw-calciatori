@@ -1,0 +1,47 @@
+.demo-bg {
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+}
+
+.testo-index{
+    font-size: 8vw;
+    font-size: 8vh;
+    font-style: italic;
+    color: black;
+    font-family: "Impact";
+    text-align-all: center;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.tabella{
+    background: rgba(0,0,0,0.5);
+}
+
+.informazioni {
+    position: absolute;
+    z-index: 1;
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    border: solid black;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.wrapper {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
